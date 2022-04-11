@@ -15,5 +15,6 @@ The solution to the problem is to plan routes for employees during their work, w
 
 ### Implementation
 All the components, such as workers, machines, transport routes, products, etc., have been organized into classes, listed in the UML diagram below. External functions are responsible for operating on objects of these classes.
+
 ![uml](https://github.com/Mar-Ber/Component-deliveries/blob/main/UML.png)
 
