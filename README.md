@@ -14,7 +14,7 @@ Local warehouses have some initial level of components. The frequency of repleni
 The solution to the problem is to plan routes for employees during their work, with the aim of maximizing profits. They have the option of supplying individual ones machines with a large number of components or a large number of machines with a small number of components, depending on which strategy will bring more profit. The goal is uninterrupted production of products with a specific number of employees.
 
 ### Implementation
-All the components, such as workers, machines, transport routes, products, etc., have been organized into classes, listed in the UML diagram below. External functions are responsible for operating on objects of these classes.
+All the elements, such as workers, machines, transport routes, products, etc., have been organized into classes, listed in the UML diagram below. External functions are responsible for operating on objects of these classes.
 
 ![uml](https://github.com/Mar-Ber/Component-deliveries/blob/main/UML.png)
 
