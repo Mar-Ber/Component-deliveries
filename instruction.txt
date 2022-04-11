@@ -1,0 +1,25 @@
+Read Me! 
+
+The application was created to facilitate the planning of deliveries in the production plant.
+
+*Description of use*
+
+The main menu has 4 tabs: Instruction, Production, Plant, Solution. 
+Each one except the first one is necessary for the correct execution of the algorithm. They are used to select parameters on the basis of which the model will be created and the solution generated. You should open each of them, complete data and save them with the 'Save' button in the order of their occurrence in the main menu. After making changes in the Production tab, it is necessary to generate new model elements in the Plant tabs. If you only want to preview the variable values, without changes in the current model, exit the tab using the 'Return' button. 
+Each time you use the 'Save' button, the existing data will be overwritten.
+
+*Production*
+
+This tab is used to enter information about containers, components and products. Approval of the data creates appropriate lists on the basis of which the factory model is created in the next step and the search for a solution. Each introduction of changes requires generating a new model in the Plant tab. If the data is saved correctly, the word 'Saved!' will appear.
+
+*Plant*
+
+This tab is used to generate the desired number of employees and their vehicles, as well as to create the main factory model, based on the product information defined in the previous tab. Each introduction of changes requires generating a new solution in the Solution tab. If the data is saved correctly, the word 'Saved!' will appear. If the following text appears: 'Generate products first!' return to the previous tab.
+
+*Solution*
+
+This tab is used to generate a solution. Complete the information about the algorithm and multipliers, and then click 'Find Solution' button. If the following text appears: 'Generate plant first!' return to the previous tab. If you want to see an existing previous solution press the 'Show solution' button. If you are interested in the details of the generated model, go to the 'Solution details' tab.
+
+*Solution details*
+
+This window contains detailed information about the production cells ('Plant' button), manufactured products ('Products details' button) or the resulting production schedule ('Schedule' button). The selected data will appear in the text box.
