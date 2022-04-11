@@ -12,3 +12,8 @@ The factory is divided into sections. They are marked by paths along the length 
 Local warehouses have some initial level of components. The frequency of replenishment of production parts depends on the processing time of a given product. Each of the warehouses contains a sufficient number of racks for the room components needed for production in a given production cell. It is defined maximum number of containers with a given component in the local warehouse. 
 
 The solution to the problem is to plan routes for employees during their work, with the aim of maximizing profits. They have the option of supplying individual ones machines with a large number of components or a large number of machines with a small number of components, depending on which strategy will bring more profit. The goal is uninterrupted production of products with a specific number of employees.
+
+### Implementation
+All the components, such as workers, machines, transport routes, products, etc., have been organized into classes, listed in the UML diagram below. External functions are responsible for operating on objects of these classes.
+![uml](https://github.com/Mar-Ber/Component-deliveries/blob/main/UML.png)
+
